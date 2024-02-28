@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- Conteúdo da Tela 2 -->
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./stylejornada.css" />
+        <script src="./codjornada.js"></script>
+        <style>
+          body {
+            background-image: url(./asset/claro.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        </style>
+      </head>
+    </html>
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Verificação de marcação de ponto</title>
+      </head>
+      <body>
+        <h1 class="titulo">Verificação de marcação de ponto</h1>
+
+        <h2>Horário de jornada de trabalho</h2>
+
+        <div class="form-container">
+          <form>
+            <label for="valorHoras">Valor em horas (HH:MM):</label>
+            <input type="text" id="valorHoras" />
+
+            <button type="button" onclick="somarUmaHoraUmMinuto()">
+              Verificar hora mínima para próxima marcação
+            </button>
+          </form>
+        </div>
+
+        <p id="resultado"></p>
+
+        <div class="support">
+          Suporte: guilherme.campos1@br.nestle.com (DEV) /
+          ana.borges5@br.nestle.com (RH)
+        </div>
+
+        <script src="script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

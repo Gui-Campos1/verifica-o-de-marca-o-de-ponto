@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleabertura.css" />
+    <style>
+      body {
+        background-image: url(./asset/claro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Bem-vindo (a) !</h1>
+    <h1>Sistema de verificação de marcação de ponto</h1>
+    <h2>Selecione a categoria da marcação:</h2>
+
+    <button onclick="abrirTela1()">Marcação de refeição</button>
+    <button onclick="abrirTela2()">Marcação de jornada de trabalho</button>
+
+    <script>
+      function abrirTela1() {
+        window.location.href = "index.html"
+      }
+
+      function abrirTela2() {
+        window.location.href = "index2.html"
+      }
+    </script>
+  </body>
+</html>
