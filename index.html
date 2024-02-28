@@ -1,56 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleabertura.css" />
+    <style>
+      body {
+        background-image: url(./asset/claro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <title>Verificação de ponto</title>
+  </head>
+
   <body>
-    <!-- Conteúdo da Tela 1 -->
+    <h1>Bem-vindo (a) !</h1>
+    <h1>Sistema de verificação de marcação de ponto</h1>
+    <h2>Selecione a categoria da marcação:</h2>
 
-    <!DOCTYPE html>
-    <html lang="pt-br">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
-        <script src="cod.js"></script>
-        <style>
-          body {
-            background-image: url(./asset/claro.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-          }
-        </style>
-      </head>
-    </html>
+    <button onclick="abrirTela1()">Marcação de refeição</button>
+    <button onclick="abrirTela2()">Marcação de jornada de trabalho</button>
 
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Verificação de marcação de ponto</title>
-      </head>
-      <body>
-        <h1 class="titulo">Verificação de marcação de ponto</h1>
+    <script>
+      function abrirTela1() {
+        window.location.href = "index.html"
+      }
 
-        <h2>Horário de almoço/janta</h2>
-
-        <div class="form-container">
-          <form>
-            <label for="valorHoras">Valor em horas (HH:MM):</label>
-            <input type="text" id="valorHoras" />
-
-            <button type="button" onclick="somarUmaHoraUmMinuto()">
-              Verificar hora mínima para próxima marcação
-            </button>
-          </form>
-        </div>
-
-        <p id="resultado"></p>
-
-        <div class="support">
-          Suporte: guilherme.campos1@br.nestle.com (DEV) /
-          ana.borges5@br.nestle.com (RH)
-        </div>
-
-        <script src="script.js"></script>
-      </body>
-    </html>
+      function abrirTela2() {
+        window.location.href = "index2.html"
+      }
+    </script>
   </body>
 </html>
