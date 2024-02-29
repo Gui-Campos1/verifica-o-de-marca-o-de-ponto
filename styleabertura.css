@@ -46,18 +46,6 @@ button:hover {
   margin-bottom: 20px;
 }
 
-@keyframes slidein {
-  from {
-    margin: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin: 0%;
-    width: 100%;
-  }
-}
-
 .form-container {
   display: flex;
   justify-content: center;
