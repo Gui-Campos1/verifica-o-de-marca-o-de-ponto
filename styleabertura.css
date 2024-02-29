@@ -1,14 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  margin: 2vw; /* Tamanho proporcional à largura da tela */
+  margin: 5vw; /* Tamanho proporcional à largura da tela */
   padding: 5vw; /* Tamanho proporcional à largura da tela */
 }
 
 h1 {
-  font-size: 4vw; /* Tamanho proporcional à largura da tela */
+  font-size: 5vw; /* Tamanho proporcional à largura da tela */
   color: #333;
-  margin-bottom: 4vw; /* Tamanho proporcional à largura da tela */
+  margin-bottom: 5vw; /* Tamanho proporcional à largura da tela */
   text-align: center;
 }
 
@@ -19,13 +19,13 @@ h2 {
 
 button {
   display: block;
-  margin: 1vw auto; /* Centraliza horizontalmente */
-  padding: 1vw 2vw; /* Tamanho proporcional à largura da tela */
-  font-size: 1.5vw; /* Tamanho proporcional à largura da tela */
+  margin: 2vw auto; /* Centraliza horizontalmente */
+  padding: 2vw 4vw; /* Tamanho proporcional à largura da tela */
+  font-size: 3vw; /* Tamanho proporcional à largura da tela */
   background-color: #007bff;
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 0.5vw; /* Tamanho proporcional à largura da tela */
+  border-radius: 1vw; /* Tamanho proporcional à largura da tela */
   transition: background-color 0.3s ease;
 }
