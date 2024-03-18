@@ -3,7 +3,7 @@ body {
   background-color: #f2f2f2;
   margin: 0;
   padding: 20px;
-  height: 100vh; /* Define a altura do body como 100% da altura da viewport */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,4 +97,11 @@ p {
   text-align: center;
   margin-top: 20px;
   color: #000000;
+}
+
+/* Ajustes para compatibilidade com o Safari */
+@supports (-webkit-touch-callout: none) {
+  body {
+    display: block;
+  }
 }
