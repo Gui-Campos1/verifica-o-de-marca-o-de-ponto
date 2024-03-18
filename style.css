@@ -3,6 +3,11 @@ body {
   background-color: #f2f2f2;
   margin: 0;
   padding: 20px;
+  height: 100vh; /* Define a altura do body como 100% da altura da viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .titulo {
@@ -93,4 +98,3 @@ p {
   margin-top: 20px;
   color: #000000;
 }
-
