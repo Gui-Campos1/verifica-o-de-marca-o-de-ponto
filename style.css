@@ -9,7 +9,6 @@ body {
   height: 100vh
 }
 
-
 .titulo {
   animation-duration: 3s;
   animation-name: slidein;
@@ -98,4 +97,3 @@ p {
   margin-top: 20px;
   color: #000000;
 }
-
