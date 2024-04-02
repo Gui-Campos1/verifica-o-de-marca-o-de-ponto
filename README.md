@@ -9,7 +9,8 @@
     <a href="#-Tecnologias">🌐 Tecnologias</a>
 </div>
 
-<img alt="DevLinks @bolarena_" src="./assets/preview.jpg" width="100%">
+<img alt="DevLinks @bolarena_" src="./asset/14.jpg" width="100%">
+<img alt="DevLinks @bolarena_" src="./asset/15.jpg" width="100%">
 
 ## **💻 Projeto**
 
