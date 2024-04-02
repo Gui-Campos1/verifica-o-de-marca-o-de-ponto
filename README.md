@@ -1,5 +1,5 @@
 
-<h1 align=center> DevLinks </h1>
+<h1 align=center> Verificação de marcação de ponto </h1>
 
 <div style="display:inline; list-style: none;" align="center">
    <a href="#-Projeto">💻 Projeto</a>
@@ -13,13 +13,13 @@
 
 ## **💻 Projeto**
 
-O DevLinks é um agregador de links para usar como cartão de visitas online
+É um site criado para verificação de qual será a próxima hora para o colaborador(a) realizar o resgitro de marcação de ponto no sistema, com o intuito de seguir as regras compliance da empresa.
 
 ## **✔️ Recursos**
-* [X] Apresetação do local;
-* [X] Links para redes sociais e informações;
-* [X] Tem uma aba onde mostra algumas fotos do local com um texto muito legal;
-* [X] Ambiente interativo onde busca atrair o público.
+* [X] Tela inicial interativa;
+* [X] Botões para recursos diferentes;
+* [X] Transição de tela com efeito;
+* [X] Cálculo de proxima marcação de acordo com a hora fornecida no campo.
 
 
 ## **🚀 Como executar o projeto**
@@ -42,4 +42,5 @@ O DevLinks é um agregador de links para usar como cartão de visitas online
 - JavaScript
 - Git e Github
 - Figma
+
 
